@@ -1,4 +1,4 @@
-23839660047084234
+23852001533319912
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63496,6 +63496,55 @@ solder jumper open
 0
 5
 3
+KUBTSS
+BME280
+
+
+0
+6
+6
+KUBTSS
+BNO055
+
+
+0
+8
+8
+KUBTSS
+BatteryCell
+
+
+0
+2
+2
+KUBTSS
+Fuse MF-R090
+
+
+0
+2
+2
+KUBTSS
+SDP32
+
+
+0
+18
+18
+KUBTSS
+SDP32-try
+
+
+0
+18
+18
+KUBTSS
+nRF52840 XIAO Sense
+
+
+0
+0
+0
 KUBTSS
 toggle
 
