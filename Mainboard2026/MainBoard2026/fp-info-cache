@@ -1,4 +1,4 @@
-26779666262338203
+26783207512324275
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69353,7 +69353,7 @@ ESP32-WROOM-32
 Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
 Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
 0
-60
+52
 39
 KUBTSS
 Fuse MF-R090
@@ -69377,6 +69377,13 @@ SDP32-try
 18
 18
 KUBTSS
+Zenner
+
+
+0
+2
+2
+KUBTSS
 nRF52840 XIAO Sense
 
 
@@ -69390,6 +69397,13 @@ toggle
 0
 3
 3
+KUBTSS
+名称未設定
+
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
