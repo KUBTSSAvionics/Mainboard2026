@@ -1,0 +1,97 @@
+(footprint "Zenner"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.21 -1.59 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9a06262f-ec41-457f-95f5-943f07f065f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Zenner"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d17eeb65-722d-4115-8d88-e95be756f414")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b1e5c29-21ad-491d-af51-71bfa0775718")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88855057-2029-47b0-9754-dd1da51b2277")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1 -0.55)
+		(end 1 8.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ea88e077-48af-42bb-9daa-0713dd334be5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a4f30974-6ed8-42c5-855f-b3f2693c3ce3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 0.85 0.85)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "69fe05e2-7628-4964-a152-7362c8b823a9")
+	)
+	(pad "2" thru_hole oval
+		(at 0 8)
+		(size 0.85 0.85)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "54269f5d-eedd-4361-bcfc-4304eb0f93c8")
+	)
+	(embedded_fonts no)
+)

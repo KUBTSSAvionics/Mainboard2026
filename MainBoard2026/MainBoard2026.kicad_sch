@@ -6330,6 +6330,12 @@
 		(uuid "1a9fc67b-22b6-4836-aaa0-950dddfef63d")
 	)
 	(junction
+		(at 200.66 306.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "227906f6-d0b8-4ef2-b699-33d5982c7e99")
+	)
+	(junction
 		(at 68.58 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7095,6 +7101,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 304.8) (xy 208.28 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242db340-720b-45a8-9cb2-3168e6eaba89")
+	)
+	(wire
+		(pts
 			(xy 218.44 245.11) (xy 224.79 245.11)
 		)
 		(stroke
@@ -7695,7 +7711,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 304.8) (xy 200.66 309.88)
+			(xy 200.66 304.8) (xy 200.66 306.07)
 		)
 		(stroke
 			(width 0)
@@ -8595,6 +8611,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 306.07) (xy 200.66 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8426ed0-2bc7-461e-9915-f4d7982e4922")
+	)
+	(wire
+		(pts
 			(xy 142.24 22.86) (xy 149.86 22.86)
 		)
 		(stroke
@@ -8952,6 +8978,16 @@
 			(type default)
 		)
 		(uuid "d88c014d-e633-4271-a460-f84a8cec275b")
+	)
+	(wire
+		(pts
+			(xy 200.66 306.07) (xy 200.66 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91124db-c6d6-46b9-a225-4bb94254af33")
 	)
 	(wire
 		(pts
@@ -19307,11 +19343,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 77.47 13.97 0)
+			(at 80.01 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

@@ -1,0 +1,237 @@
+(footprint "BatteryCell"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0e26fc1d-bd16-4015-b7bb-7b139c39ef5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BatteryCell"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed2a8851-19d9-473e-9c46-f84f359509ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88090305-ec2e-4ce4-a809-27ac987155c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a79bb8f4-671f-4529-be10-64c8d4bfed18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -25 6.5)
+		(end -25 -6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "422bc450-8f6d-4c19-b191-c137f9daa3c0")
+	)
+	(fp_line
+		(start -25 6.5)
+		(end 25 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fdb6a89e-7b67-47e9-ba49-7b3c6ad8daa4")
+	)
+	(fp_line
+		(start -13.7 -2)
+		(end -10.9 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf510984-eb9e-433b-b65f-410d77957679")
+	)
+	(fp_line
+		(start -13.7 2)
+		(end -13.7 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a5329fd8-4346-462c-80ca-a55438692b5d")
+	)
+	(fp_line
+		(start -10.9 -4.9)
+		(end 13.5 -4.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f52d5da-95d3-4fca-8c3c-850c063930c4")
+	)
+	(fp_line
+		(start -10.9 -2)
+		(end -10.9 -4.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4d39ab5d-e0f5-4203-b677-c1d7a3cbbcac")
+	)
+	(fp_line
+		(start -10.9 2)
+		(end -13.7 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "100d9b71-412a-44cc-a6c1-96128ac0df9a")
+	)
+	(fp_line
+		(start -10.9 4.9)
+		(end -10.9 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "256b7c98-0d6a-4a28-a15e-d2cee3ca70f7")
+	)
+	(fp_line
+		(start -10 0)
+		(end -8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5f45fb9-b92f-4c42-9a62-8993609d2e1b")
+	)
+	(fp_line
+		(start -9 -1)
+		(end -9 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b9a5d6fe-48e3-4b12-ad00-9c7c84501e57")
+	)
+	(fp_line
+		(start 10 0)
+		(end 12 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "96bd1ec5-6e3f-4408-9bdf-02c408cdf7bd")
+	)
+	(fp_line
+		(start 13.5 -4.9)
+		(end 13.5 4.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f477cf72-392c-47fe-ba3d-9aef2dcb6ad8")
+	)
+	(fp_line
+		(start 13.5 4.9)
+		(end -10.9 4.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c9dacfbd-ed50-43c4-abc1-897d2ce33bde")
+	)
+	(fp_line
+		(start 25 -6.5)
+		(end -25 -6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0f710449-9e6c-494e-9beb-b4fb03e9d493")
+	)
+	(fp_line
+		(start 25 6.5)
+		(end 25 -6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "22ce9cc3-890c-468c-a1d8-a9a59b33a3ea")
+	)
+	(fp_rect
+		(start -25.2 -6.7)
+		(end 25.2 6.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1cc43ebd-3b07-4477-b263-68eaac392e68")
+	)
+	(pad "1" thru_hole circle
+		(at -22.4 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "edc97078-ede4-4a25-82cf-65f6f56ec258")
+	)
+	(pad "2" thru_hole circle
+		(at 22.4 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd0bda94-81c2-444f-bde2-de9543bfecbb")
+	)
+	(embedded_fonts no)
+)
