@@ -2606,293 +2606,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_PMOS_GDS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PMOS_GDS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, gate/drain/source"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PMOS_GDS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_GDS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -5697,6 +5410,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -6217,7 +6228,7 @@
 	)
 	(text "G"
 		(exclude_from_sim no)
-		(at 169.926 29.972 0)
+		(at 167.64 23.876 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6227,7 +6238,7 @@
 	)
 	(text "S"
 		(exclude_from_sim no)
-		(at 163.322 21.844 0)
+		(at 176.276 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6247,7 +6258,7 @@
 	)
 	(text "D\n"
 		(exclude_from_sim no)
-		(at 173.736 24.384 0)
+		(at 164.338 16.256 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6286,6 +6297,12 @@
 			(justify left)
 		)
 		(uuid "e3524ed8-8aaf-4ca9-93b6-167340a6c0fd")
+	)
+	(junction
+		(at 157.48 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "002d657a-8f07-43e6-bbdc-b7142609abae")
 	)
 	(junction
 		(at 196.85 140.97)
@@ -6502,12 +6519,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb15adea-7dca-4164-9d7c-2f90d5673d4f")
-	)
-	(junction
-		(at 157.48 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c16ab625-159a-433f-87ea-f09cb90df262")
 	)
 	(junction
 		(at 43.18 34.29)
@@ -7231,16 +7242,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 22.86) (xy 163.83 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36448d0c-1249-4787-af57-a8917b0a8daa")
-	)
-	(wire
-		(pts
 			(xy 196.85 118.11) (xy 198.12 118.11)
 		)
 		(stroke
@@ -7341,7 +7342,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 30.48) (xy 168.91 31.75)
+			(xy 170.18 25.4) (xy 170.18 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7631,16 +7632,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 22.86) (xy 185.42 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6018523c-5327-4bf8-9d30-e1d63e25b561")
-	)
-	(wire
-		(pts
 			(xy 26.67 119.38) (xy 26.67 123.19)
 		)
 		(stroke
@@ -7681,6 +7672,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 31.75) (xy 168.91 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636cd397-7abb-4b8b-a196-4058eec03c21")
+	)
+	(wire
+		(pts
 			(xy 255.27 78.74) (xy 262.89 78.74)
 		)
 		(stroke
@@ -7698,6 +7699,16 @@
 			(type default)
 		)
 		(uuid "6578d868-3406-4d1a-91b3-8744013f5a0a")
+	)
+	(wire
+		(pts
+			(xy 157.48 22.86) (xy 175.26 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65964341-d1ea-4228-929c-75690218664c")
 	)
 	(wire
 		(pts
@@ -8551,6 +8562,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 22.86) (xy 175.26 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1b11f9-ab8d-49d9-8968-3fed8235a5b5")
+	)
+	(wire
+		(pts
 			(xy 228.6 285.75) (xy 233.68 285.75)
 		)
 		(stroke
@@ -9051,7 +9072,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 12.7) (xy 185.42 22.86)
+			(xy 165.1 12.7) (xy 165.1 17.78)
 		)
 		(stroke
 			(width 0)
@@ -12574,6 +12595,80 @@
 			(project "MainBoard2026"
 				(path "/91470f72-cbb4-4917-89df-019a22a28473"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 170.18 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eb4b40d-d404-4e65-b24f-603c726e871f")
+		(property "Reference" "Q1"
+			(at 170.18 12.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 170.18 15.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 172.085 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 173.99 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 170.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e5abbea-cef5-45b0-9943-9facaf5c6829")
+		)
+		(pin "2"
+			(uuid "b431d665-479c-4c49-94c3-3336cac227a3")
+		)
+		(pin "3"
+			(uuid "6417f15c-c46e-4c5e-bfc8-cee0bc69fa2f")
+		)
+		(instances
+			(project ""
+				(path "/91470f72-cbb4-4917-89df-019a22a28473"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -16583,79 +16678,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_PMOS_GDS")
-		(at 168.91 25.4 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e37ae9c-519e-4fb4-b911-2d064c02393c")
-		(property "Reference" "Q4"
-			(at 165.1 18.034 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 165.1 15.494 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 171.45 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, gate/drain/source"
-			(at 168.91 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bde36898-eeaf-4a3f-94cd-2049bfe6a5c3")
-		)
-		(pin "2"
-			(uuid "96199ce4-7005-4414-b8f0-faaeefa21dd7")
-		)
-		(pin "1"
-			(uuid "85d227ab-48f5-4b0d-8484-dabf8db995ec")
-		)
-		(instances
-			(project "MainBoard2026"
-				(path "/91470f72-cbb4-4917-89df-019a22a28473"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 57.15 187.96 90)
 		(unit 1)
@@ -17574,7 +17596,7 @@
 		(dnp no)
 		(uuid "b6548151-886a-498d-98a6-0a33ce6feba8")
 		(property "Reference" "R3"
-			(at 180.594 276.098 90)
+			(at 181.61 274.066 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17582,7 +17604,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 180.34 274.32 90)
+			(at 181.61 275.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19055,16 +19077,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 185.42 12.7 0)
+		(at 165.1 12.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e93680c2-4d42-423e-9e39-daa5e84e8237")
 		(property "Reference" "#PWR047"
-			(at 185.42 16.51 0)
+			(at 165.1 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19073,7 +19094,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 187.96 11.4299 0)
+			(at 162.306 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19082,7 +19103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 12.7 0)
+			(at 165.1 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19091,7 +19112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 12.7 0)
+			(at 165.1 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19100,7 +19121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 185.42 12.7 0)
+			(at 165.1 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
